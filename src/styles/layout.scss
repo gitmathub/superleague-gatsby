@@ -1,0 +1,54 @@
+// reset
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  // This defines 1rem = 10px; 10px/16px = 62.5%
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Scope One", "Roboto";
+  line-height: $line-height-middle;
+  color: $color-grey-dark-3;
+  // margin: 0.4rem; // check on windows
+}
+
+a {
+  &:link,
+  &:visited {
+    display: inline-block;
+    color: $color-grey-dark-3;
+    text-decoration: none;
+  }
+  &:hover {
+    background-color: $color-grey-light-2;
+  }
+}
+
+a.active {
+  // doesn't work above with &:active
+  background-color: $color-grey-light-2;
+}
+
+// reading area: 680
+// text size medium to small: 18px
+// text size wide: 21px
+// line hight 1.6
+main {
+  font-size: $font-size-middle;
+  max-width: $text-block-width;
+  margin: 0 auto;
+  padding: 0.8rem;
+  @include respond(wide) {
+    font-size: $font-size-wide;
+  }
+}
+
+// section,
+// article
