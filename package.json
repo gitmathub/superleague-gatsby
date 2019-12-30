@@ -1,7 +1,7 @@
 {
   "name": "superleague-gatsby",
   "private": true,
-  "description": "The web sitegenerator for superleague.website",
+  "description": "The web site generator for superleague.website",
   "version": "1.0.0",
   "author": "Mat <mat@daus.berlin>",
   "dependencies": {
