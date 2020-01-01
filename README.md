@@ -1,4 +1,4 @@
-# The web site generator for superleague.website
+# The Website Generator for superleague.website
 
 # Instalation
 
