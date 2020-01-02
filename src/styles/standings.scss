@@ -1,0 +1,40 @@
+.standings {
+
+  &__article {
+    display: block;
+    font-family: $font-sans-serif;
+  }
+
+  &__table {
+    margin: 0 auto;
+      border-collapse: collapse;
+
+    > thead {
+      background-color: red;
+      color: white;
+      text-transform: uppercase;
+    }
+
+    > table, th, td {
+      text-align: left;
+      border-bottom: 0.1rem solid lightgray; 
+
+      @include respond(small) {
+        padding: .2rem;
+        font-size: $font-size-small;
+        // font-weight: $font-weight-middle;
+      }
+      @include respond(middle) {
+        padding: .4rem;
+        font-size: $font-size-middle;
+        font-weight: $font-weight-middle;
+      }    
+      @include respond(wide) {
+        padding: .4rem;
+        font-size: $font-size-wide;
+        font-weight: $font-weight-middle;
+      }    
+    }
+  }
+}
+

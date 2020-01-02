@@ -1,5 +1,7 @@
 import * as React from "react"
 
 export default () => (
-  <header>{/* <div className="title">Zambia Super League</div> */}</header>
+  <header>
+    <div className="header__title">Zambia Super League</div>
+  </header>
 )
