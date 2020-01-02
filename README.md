@@ -15,6 +15,6 @@ npm install
 ## TODOS
 
 - [x] connect to database
-- [ ] scale table with width
+- [x] scale table with width
 - [ ] tooltips
 - [ ] favicon
