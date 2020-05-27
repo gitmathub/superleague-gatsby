@@ -17,4 +17,5 @@ npm install
 - [x] connect to database
 - [x] scale table with width
 - [ ] tooltips
-- [ ] favicon
+- [x] favicon
+- [ ] mention last update (l.DateTime.local().setZone('Africa/Lusaka').toFormat('DDDD tttt'))
